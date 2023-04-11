@@ -12,4 +12,4 @@
 
 <p> ◻️	Andressa Hensel Cardoso </p>
 
-<p> 📚 Ensino Médio Técnico em Tecnologia da Internet - Senac </p>
+<p> 📚 Ensino Médio Técnico em Tecnologia para Internet - Senac </p>
