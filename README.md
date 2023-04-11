@@ -1,6 +1,6 @@
 <h1 align="center"> Atividades JS </h1>
 
-![Badge Desenvolvido](https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-green?style=for-the-badge)
+![Badge Desenvolvido](https://img.shields.io/badge/STATUS-ATIVO-green?style=for-the-badge)
 
 <h4> Sobre: </h4>
 
