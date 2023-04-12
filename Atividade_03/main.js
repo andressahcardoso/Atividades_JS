@@ -60,3 +60,18 @@ const person = {
 }
 
 console.log('O nome da pessoa é ', person.Nome, ', ela tem ', person.Idade, ' anos e gosta muito de música ',person.GeneroMusical + '.')
+
+
+// Objeto dentro de objeto
+
+const MaedePet = {
+    nome: 'Maria',
+    pet: {
+        nome: 'Alberto',
+        raca: 'Salsicha',
+        idade: 2
+    }
+}
+
+const nomePet = MaedePet.pet.nome
+console.log(nomePet)
