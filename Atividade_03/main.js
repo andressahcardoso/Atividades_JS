@@ -75,3 +75,14 @@ const MaedePet = {
 
 const nomePet = MaedePet.pet.nome
 console.log(nomePet)
+
+
+// Objeto com array
+
+const desenvol = {
+    nome: 'Mario',
+    linguagens: ['Python', 'CSS', 'HTML']
+}
+
+console.log(desenvol.linguagens[0])
+
