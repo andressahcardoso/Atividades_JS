@@ -108,3 +108,11 @@ const desenvolve = {
 desenvolve.numeroLinguagens = 3
 
 console.log(desenvolve)
+
+
+desenvolve.lista = ['Personagem1', 'Personagem2', 'Personagem3']
+console.log(desenvolve.lista)
+
+desenvolve.lista[0] = 'camila'
+
+console.log('O nome do filme é ' + desenvolve.nome + '. Seus personagens são '+ desenvolve.lista[0] + ',', desenvolve.lista[1], 'e', desenvolve.lista[2] + '.' )
