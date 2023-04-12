@@ -96,3 +96,15 @@ const professores = [
 ]
 
 console.log(professores[2].nome)
+
+
+// Adicionando propriedades
+
+const desenvolve = {
+    nome: 'maria',
+    linguagens: ['javascript', 'python']
+}
+
+desenvolve.numeroLinguagens = 3
+
+console.log(desenvolve)
