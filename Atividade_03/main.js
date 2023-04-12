@@ -86,3 +86,13 @@ const desenvol = {
 
 console.log(desenvol.linguagens[0])
 
+
+// Array de Objetos
+
+const professores = [
+    {nome: 'Paula', componente: 'Técnico Profissional'},
+    {nome: 'Galas', componente: 'Física'},
+    {nome: 'Rafaela', componente: 'Sociologia'}
+]
+
+console.log(professores[2].nome)
