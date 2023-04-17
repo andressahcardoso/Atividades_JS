@@ -116,3 +116,46 @@ console.log(desenvolve.lista)
 desenvolve.lista[0] = 'camila'
 
 console.log('O nome do filme é ' + desenvolve.nome + '. Seus personagens são '+ desenvolve.lista[0] + ',', desenvolve.lista[1], 'e', desenvolve.lista[2] + '.' )
+
+
+// Espalhamento ou spread
+
+const desenvolvedora2 = {
+    nome: 'Leticia',
+    idade: 25,
+    email: 'leticia@gmail.com'
+}
+
+const novaDesenvolvedora2 = {
+    ...desenvolvedora2,
+    nome: 'Patricia',
+    sobrenome: 'Silva'
+}
+
+console.log(novaDesenvolvedora2)
+
+
+// Espalhamento - arrays
+
+const listaNomes = ['Pedro', 'Amanda', 'Marcus']
+
+const copiaListaNomes = [...listaNomes, 'Paula']
+
+
+// Atividade 
+
+function dev(desenvolvedora2) {
+    const novaDev2 = {
+        ...desenvolvedora2,
+        comidas: ['Abacaxi', 'morango', 'uva'],
+        sobre: {
+            nome: 'Alberto',
+            idade: 21
+        }
+    }
+    
+    console.log('---', novaDev2)
+    
+} 
+
+dev(desenvolvedora2)
